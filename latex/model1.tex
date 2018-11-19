@@ -1,0 +1,33 @@
+\subsection{\label{sec:net1}Network 1}
+
+We will focus first on the
+
+\begin{figure}[h]
+\tikzstyle{species}=[circle,,minimum size=0.75cm, line width=1pt,draw=black!]
+\tikzstyle{square}=[rectangle,thick,minimum size=0.75cm,draw=blue!80,fill=blue!20]
+\tikzstyle{vspecies}=[rectangle, minimum size=0.75cm,draw=blue!80,fill=blue!20]
+\tikzstyle{square}=[rectangle,thick,minimum size=0.75cm,draw=red!80,fill=blue!20]
+\tikzstyle{fspecies}=[rectangle, minimum size=0.5cm,draw=red!80,fill=red!20]
+\begin{tikzpicture}[auto, outer sep=3pt, node distance=2.5cm,>=latex']
+\node [species] (ag) {ag};
+\node [species, above right of = ag] (Tac) {$T_{act}$};
+\node [species,below right of = ag] (T) {$P_{1}$};
+\node [species,below right of = Tac] (C) {$C_{IL2}$};
+\node [species,right of = C] (Treg) {$T_{reg}$};
+%\draw [->,thick] (ag) --  node {$V_1$} (Tac) ;
+\draw [->,thick] (ag) -- (Tac);
+\draw [->,thick] (Tac) -- (T);
+\draw [->,thick] (Tac) -- (C);
+\draw [->,thick] (C) -- (Treg);
+\draw [-|,thick] (Treg) -- (C);
+\draw [-|,thick] (T) -- (ag);
+
+%\draw [-|,thick] (Tac.0) arc (-90:160:4mm);
+
+\draw [-|,thick] (Tac) to [out=0,in=60,loop,looseness=4] (Tac);
+\end{tikzpicture}
+\end{figure}
+
+\subsubsection{\label{sec:eq1}The differential equations}
+
+\subsubsection{\label{sec:res1}Results}
