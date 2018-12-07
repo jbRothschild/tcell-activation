@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.11.16)  16 NOV 2018 14:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.11.16)  6 DEC 2018 11:43
 entering extended mode
 **./main.tex
 (main.tex
@@ -532,6 +532,42 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 ibraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
+(/home/jbrothschild/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+
+(/home/jbrothschild/.miktex/texmfs/install/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(/home/jbrothschild/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen161
+\captionmargin@=\dimen162
+\captionwidth=\dimen163
+\caption@tempdima=\dimen164
+\caption@indent=\dimen165
+\caption@parindent=\dimen166
+\caption@hangindent=\dimen167
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\par \vskip \abovecapti
+onskip \begingroup \small \rmfamily \sbox \@tempboxa {\let \\\heading@cr \@make
+@capt@title {#1}{#2}}\@ifdim {\wd \@tempboxa >\hsize }{\begingroup \samepage \f
+lushing \let \footnote \@footnotemark@gobble \@make@capt@title {#1}{#2}\par \en
+dgroup }{\global \@minipagefalse \hb@xt@ \hsize {\hfil \unhbox \@tempboxa \hfil
+ }}\endgroup \vskip \belowcaptionskip .
+\c@caption@flags=\count127
+\c@ContinuedFloat=\count128
+)
+\c@subfigure=\count129
+\c@subtable=\count130
+)
 (/home/jbrothschild/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/l
 ibraries/tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
@@ -611,47 +647,47 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/home/jbrothschild/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibrary
 arrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen161
+\arrowsize=\dimen168
 ))
 (/home/jbrothschild/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/l
 ibraries/tikzlibraryautomata.code.tex
 File: tikzlibraryautomata.code.tex 2008/07/14 v3.0.1a (rcs-revision 1.3)
 )
 Class revtex4-1 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 26.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 26.
+lass! (Proceeding with fingers crossed.) on input line 27.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 27.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 26.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 26.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 26.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 27.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 27.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 27.
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 (/home/jbrothschild/.miktex/texmfs/install/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count127
-\scratchdimen=\dimen162
+\scratchcounter=\count131
+\scratchdimen=\dimen169
 \scratchbox=\box76
-\nofMPsegments=\count128
-\nofMParguments=\count129
+\nofMPsegments=\count132
+\nofMParguments=\count133
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count130
-\MPscratchDim=\dimen163
-\MPnumerator=\count131
-\makeMPintoPDFobject=\count132
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen170
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
 \everyMPtoPDFconversion=\toks39
 )
 (/home/jbrothschild/.miktex/texmfs/install/tex/latex/oberdiek/epstopdf-base.sty
@@ -705,6 +741,8 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 \openout3 = `mainNotes.bib'.
 
  (abstract.tex)
@@ -726,34 +764,66 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 (Font)              using `OT1/cmss/bx/n' instead on input line 31.
 
+<Network_ag0_1.png, id=4, 462.528pt x 346.896pt>
+File: Network_ag0_1.png Graphic file (type png)
+<use Network_ag0_1.png>
+Package pdftex.def Info: Network_ag0_1.png  used on input line 52.
+(pdftex.def)             Requested size: 203.99689pt x 152.99994pt.
+<Network_ag0_3.png, id=6, 462.528pt x 346.896pt>
+File: Network_ag0_3.png Graphic file (type png)
+<use Network_ag0_3.png>
+Package pdftex.def Info: Network_ag0_3.png  used on input line 58.
+(pdftex.def)             Requested size: 203.99689pt x 152.99994pt.
+<Network_ag100.png, id=7, 462.528pt x 346.896pt>
+File: Network_ag100.png Graphic file (type png)
+<use Network_ag100.png>
+Package pdftex.def Info: Network_ag100.png  used on input line 64.
+(pdftex.def)             Requested size: 203.99689pt x 152.99994pt.
+<Network_ag200.png, id=8, 462.528pt x 346.896pt>
+File: Network_ag200.png Graphic file (type png)
+<use Network_ag200.png>
+Package pdftex.def Info: Network_ag200.png  used on input line 70.
+(pdftex.def)             Requested size: 203.99689pt x 152.99994pt.
+[1{/home/jbrothschild/.miktex/texmfs/data/pdftex/config/pdftex.map}]
+<T_cell_by_initial_ag.png, id=26, 462.528pt x 346.896pt>
+File: T_cell_by_initial_ag.png Graphic file (type png)
+<use T_cell_by_initial_ag.png>
+Package pdftex.def Info: T_cell_by_initial_ag.png  used on input line 86.
+(pdftex.def)             Requested size: 246.0pt x 184.49977pt.
 )
 No file main.bbl.
-[1{/home/jbrothschild/.miktex/texmfs/data/pdftex/config/pdftex.map}] (main.aux)
+[2 <./Network_ag0_1.png> <./Network_ag0_3.png> <./Network_ag100.png> <./Network
+_ag200.png> <./T_cell_by_initial_ag.png>] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 16858 strings out of 494871
- 345795 string characters out of 3177856
- 413311 words of memory out of 3000000
- 20143 multiletter control sequences out of 15000+200000
- 12620 words of font info for 46 fonts, out of 3000000 for 9000
+ 18058 strings out of 494871
+ 367426 string characters out of 3177856
+ 455330 words of memory out of 3000000
+ 21323 multiletter control sequences out of 15000+200000
+ 15207 words of font info for 56 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,8n,67p,531b,819s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,8n,67p,531b,838s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/jbrothschild/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb></home/jbrothschild/.miktex/texmfs/install/fonts/type1/public/amsfonts/
 cm/cmbxti10.pfb></home/jbrothschild/.miktex/texmfs/install/fonts/type1/public/a
-msfonts/cm/cmmi6.pfb></home/jbrothschild/.miktex/texmfs/install/fonts/type1/pub
-lic/amsfonts/cm/cmmi9.pfb></home/jbrothschild/.miktex/texmfs/install/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></home/jbrothschild/.miktex/texmfs/install/fonts
-/type1/public/amsfonts/cm/cmr6.pfb></home/jbrothschild/.miktex/texmfs/install/f
-onts/type1/public/amsfonts/cm/cmr9.pfb></home/jbrothschild/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/jbrothschild/.miktex/texmfs
-/install/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on main.pdf (1 page, 113510 bytes).
+msfonts/cm/cmmi10.pfb></home/jbrothschild/.miktex/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmmi5.pfb></home/jbrothschild/.miktex/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmmi6.pfb></home/jbrothschild/.miktex/texmfs/install/font
+s/type1/public/amsfonts/cm/cmmi7.pfb></home/jbrothschild/.miktex/texmfs/install
+/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/jbrothschild/.miktex/texmfs/in
+stall/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/jbrothschild/.miktex/texm
+fs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/jbrothschild/.miktex/
+texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/jbrothschild/.mik
+tex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/jbrothschild/
+.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/jbroths
+child/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></home
+/jbrothschild/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (2 pages, 324891 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

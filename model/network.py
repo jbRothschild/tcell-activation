@@ -24,6 +24,8 @@ class Models:
         self.init_time = 0.001
         self.final_time = 20.
         self.network = ntwk
+        self.time_eval = list(np.arange(self.init_time, self.final_time, (self.final_time-self.init_time)/1000.))
+        self.species = (r'$T_{pr}$', r'$C_{IL2}$', r'$T_{reg}$', r'$T_{ac}$', r'$ag$')
 
     def change_time(self, begin, end):
         self.init_time = begin
@@ -32,5 +34,8 @@ class Models:
     def change_init_conc(self, new_conc):
         self.init_conc = new_conc
 
+    def change_time_eval(self, intervals):
+        self.time_eval = list(np.arange(self.init_time, self.final_time, (self.final_time-self.init_time)/intervals))
+
     def solve(self):
-        self.sol = solve_ivp(self.network, [self.init_time, self.final_time], self.init_conc)
+        self.sol = solve_ivp(self.network, [self.init_time, self.final_time], self.init_conc, t_eval=self.time_eval)

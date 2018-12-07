@@ -1,6 +1,6 @@
 \subsection{\label{sec:net1}Network 1}
 
-We will focus first on the
+We will focus first on a simple network which looks something like this [STILL NEEDS TO BE FINISHED]
 
 \begin{figure}[h]
 \tikzstyle{species}=[circle,,minimum size=0.75cm, line width=1pt,draw=black!]
@@ -11,7 +11,7 @@ We will focus first on the
 \begin{tikzpicture}[auto, outer sep=3pt, node distance=2.5cm,>=latex']
 \node [species] (ag) {ag};
 \node [species, above right of = ag] (Tac) {$T_{act}$};
-\node [species,below right of = ag] (T) {$P_{1}$};
+\node [species,below right of = ag] (T) {$T_{pr}$};
 \node [species,below right of = Tac] (C) {$C_{IL2}$};
 \node [species,right of = C] (Treg) {$T_{reg}$};
 %\draw [->,thick] (ag) --  node {$V_1$} (Tac) ;
@@ -30,4 +30,62 @@ We will focus first on the
 
 \subsubsection{\label{sec:eq1}The differential equations}
 
+\begin{equation}
+\begin{aligned}
+\frac{d ag}{dt} & = -0.1 ag(t) T_{pr}(t)\\
+\frac{d T{ac}}{dt} & = 0.2 ag(t) ( 100 - T_{ac}(t) ) - T_{ac}(t)\\
+\frac{d C_{IL2}}{dt} & = T_{ac} - 10\frac{ C_{IL2}(t)  T_{reg}(t) }{ 1 + C_{IL2}(t) }\\
+\frac{d T_{reg}}{dt} & = \frac{ C_{IL2}(t) }{1 + C_{IL2}(t)} - 0.1 T_{reg}(t)\\
+\frac{d T_{pr}}{dt} & = T_{pr} ( 1-\frac{1.3}{1+C_{IL2}(t)} ) + 0.1 T_{ac}
+\end{aligned}
+\label{me1}
+\end{equation}
+
 \subsubsection{\label{sec:res1}Results}
+
+First, I investigated what the solution of these equations would look like for different initial concentrations of antigen.
+\begin{widetext}
+
+\begin{figure}
+\begin{subfigure}{.4\textwidth}
+  \centering
+  \includegraphics[width=1.\linewidth]{Network_ag0_1.png}
+  \caption{$ag(0)=0.1$}
+  \label{fig:sfig1}
+\end{subfigure}%
+\begin{subfigure}{.4\textwidth}
+  \centering
+  \includegraphics[width=1.\linewidth]{Network_ag0_3.png}
+  \caption{$ag(0)=0.3$}
+  \label{fig:sfig2}
+\end{subfigure}
+\begin{subfigure}{.4\textwidth}
+  \centering
+  \includegraphics[width=1.\linewidth]{Network_ag100.png}
+  \caption{$ag(0)=100$}
+  \label{fig:sfig3}
+\end{subfigure}%
+\begin{subfigure}{.4\textwidth}
+  \centering
+  \includegraphics[width=1.\linewidth]{Network_ag200.png}
+  \caption{$ag(0)=200$}
+  \label{fig:sfig4}
+\end{subfigure}
+
+\caption{Plots of solutions to network 1 with $ag(0)$ varied and all other initial concentrations set to 0.}
+\label{fig:fig}
+\end{figure}
+\end{widetext}
+
+According to these plots, there is always a slight activation of proliferating T cells (in blue). Is this biological? Are proliferating T cells always somewhat activated or is there a threshold below which no activation happens? If there is a strict threshold, there needs to be a harder cutoff in equations \ref{me1}, such as a hill function $\frac{x^n}{c^n+x^n}$ with n large ($\approx 10$).
+
+In Figure \ref{vary_init_ag}, we clearly see that the maximum concentration of T cell is attainedat later times when the initial concentration of antigen is increased.
+
+\begin{figure}[ht!]
+	\centering
+  	\includegraphics[width=1.\linewidth]{T_cell_by_initial_ag.png}
+  	\caption{Change in proliferating T cell concentration}
+  	\label{vary_init_ag}
+\end{figure}
+
+However we do not see that the increase in time is significant over a large range of initial concentrations of antigen. 
